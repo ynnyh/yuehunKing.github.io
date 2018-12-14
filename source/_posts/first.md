@@ -2,6 +2,7 @@
 title: 盲点
 date: 2018-12-11
 tags: 查缺补漏
+category: 查缺补漏
 ---
 
 ### Object.assign()

@@ -1,6 +1,11 @@
 ---
 title: 从用户输入URL，到浏览器呈现给用户页面，经过了什么过程
-tags: 每日一题 HTTP
+tags:
+    - 每日一题
+    - HTTP
+category:
+    - 每日一题
+    - HTTP
 date: 2018-10-31
 ---
 

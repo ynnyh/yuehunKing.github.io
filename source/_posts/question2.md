@@ -1,6 +1,7 @@
 ---
 title: toString用法
 tags: 每日一题
+category: 每日一题
 date: 2018-09-08
 ---
 

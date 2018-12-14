@@ -1,6 +1,11 @@
 ---
 title: this、call 和 apply
-tags: JS this指向
+tags:
+    - JS
+    - this指向
+category:
+    - JS
+    - this指向
 date: 2018-09-05
 ---
 
