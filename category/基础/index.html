@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="基础,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="emem依靠父元素的font-size来计算，1em等于父元素的font-size值，以此类推 数组1. push 接受一个或多个参数，把其传入数组的末尾，返回数组长度，改变原数组123456let a = [1, 2, 3];let res = a.push(1);console.log(res); // 输出4console.log(a); // 输出[1, 2, 3, 4];console.">
+<meta name="keywords" content="基础">
+<meta property="og:type" content="article">
+<meta property="og:title" content="基础">
+<meta property="og:url" content="https://yuehunKing.top/category/基础/index.html">
+<meta property="og:site_name" content="月魂">
+<meta property="og:description" content="emem依靠父元素的font-size来计算，1em等于父元素的font-size值，以此类推 数组1. push 接受一个或多个参数，把其传入数组的末尾，返回数组长度，改变原数组123456let a = [1, 2, 3];let res = a.push(1);console.log(res); // 输出4console.log(a); // 输出[1, 2, 3, 4];console.">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-02-20T14:24:27.142Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="基础">
+<meta name="twitter:description" content="emem依靠父元素的font-size来计算，1em等于父元素的font-size值，以此类推 数组1. push 接受一个或多个参数，把其传入数组的末尾，返回数组长度，改变原数组123456let a = [1, 2, 3];let res = a.push(1);console.log(res); // 输出4console.log(a); // 输出[1, 2, 3, 4];console.">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://yuehunKing.top/category/基础/">
+
+
+
+
+
+  <title>基础 | 月魂</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">月魂</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">ON THE WAY !</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://yuehunKing.top/category/基础/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="月魂">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/dog.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="月魂">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">基础</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-06T00:00:00+08:00">
+                2018-09-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/基础/" itemprop="url" rel="index">
+                    <span itemprop="name">基础</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/category/基础/" class="leancloud_visitors" data-flag-title="基础">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  4.4k
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  22
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h3 id="em"><a href="#em" class="headerlink" title="em"></a>em</h3><p>em依靠父元素的font-size来计算，1em等于父元素的font-size值，以此类推</p>
+<h3 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h3><h4 id="1-push-接受一个或多个参数，把其传入数组的末尾，返回数组长度，改变原数组"><a href="#1-push-接受一个或多个参数，把其传入数组的末尾，返回数组长度，改变原数组" class="headerlink" title="1. push 接受一个或多个参数，把其传入数组的末尾，返回数组长度，改变原数组"></a>1. push 接受一个或多个参数，把其传入数组的末尾，返回数组长度，改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, 2, 3];</span><br><span class="line">let res = a.push(1);</span><br><span class="line">console.log(res); // 输出4</span><br><span class="line">console.log(a); // 输出[1, 2, 3, 4];</span><br><span class="line">console.log(a.push(&apos;a&apos;, &apos;b&apos;)); // 输出6</span><br><span class="line">console.log(a); // 输出[1, 2, 3, 4, &apos;a&apos;, &apos;b&apos;];</span><br></pre></td></tr></table></figure>
+<h4 id="2-pop-移除指定数组的最后一个元素，并且返回该元素，改变原数组"><a href="#2-pop-移除指定数组的最后一个元素，并且返回该元素，改变原数组" class="headerlink" title="2. pop 移除指定数组的最后一个元素，并且返回该元素，改变原数组"></a>2. pop 移除指定数组的最后一个元素，并且返回该元素，改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">let a = [1];</span><br><span class="line">let res = a.pop();</span><br><span class="line">console.log(res); // 输出1</span><br><span class="line">console.log(a); // 输出[];</span><br><span class="line">console.log(a.pop()); // 输出undefined 数组元素为空时输出undefined</span><br><span class="line">console.log(a); // 输出[];</span><br></pre></td></tr></table></figure>
+<h4 id="3-shift-移除指定数组的第一个元素，并且返回该元素，改变原数组"><a href="#3-shift-移除指定数组的第一个元素，并且返回该元素，改变原数组" class="headerlink" title="3. shift 移除指定数组的第一个元素，并且返回该元素，改变原数组"></a>3. shift 移除指定数组的第一个元素，并且返回该元素，改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [5];</span><br><span class="line">let result = a.shift();</span><br><span class="line">console.log(result); // 5</span><br><span class="line">console.log(a); // []</span><br><span class="line"></span><br><span class="line">// More</span><br><span class="line">result = a.shift(); // 数组元素为空后会返回undefined</span><br><span class="line">console.log(result); // undefined</span><br><span class="line">console.log(a); // []</span><br></pre></td></tr></table></figure>
+<h4 id="4-unshift-向指定数组的头部添加元素，并且返回该元素，改变原数组"><a href="#4-unshift-向指定数组的头部添加元素，并且返回该元素，改变原数组" class="headerlink" title="4. unshift 向指定数组的头部添加元素，并且返回该元素，改变原数组"></a>4. unshift 向指定数组的头部添加元素，并且返回该元素，改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">	// Base</span><br><span class="line">let a = [1, 2, 3, 4, 5];</span><br><span class="line">let result = a.unshift(1);</span><br><span class="line">console.log(result); // 6</span><br><span class="line">console.log(a); // [1, 1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">// More</span><br><span class="line">result = a.unshift(&apos;a&apos;, &apos;b&apos;)  // 可一次添加多个值</span><br><span class="line">console.log(result)           // 8</span><br><span class="line">console.log(a)                // [&apos;a&apos;, &apos;b&apos;, 1, 1, 2, 3, 4, 5]</span><br></pre></td></tr></table></figure>
+<h4 id="5-slice-start-end-返回新数组，包含原数组索引start的值到索引end的值不包含end（不改变原数组）"><a href="#5-slice-start-end-返回新数组，包含原数组索引start的值到索引end的值不包含end（不改变原数组）" class="headerlink" title="5. slice(start, end)返回新数组，包含原数组索引start的值到索引end的值不包含end（不改变原数组）"></a>5. slice(start, end)返回新数组，包含原数组索引start的值到索引end的值不包含end（不改变原数组）</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, 2, 3, 4, 5];</span><br><span class="line">let res = a.slice(1, 3);</span><br><span class="line">console.log(res); // 输出[2, 3];</span><br><span class="line">console.log(a); // 输出[1, 2, 3, 4, 5];</span><br><span class="line">// 其他情况下的例子</span><br><span class="line">console.log(a.slice(1)); // 只有一个参数且不小于0的情况下，则以该值作为索引start开始进行截取直到数组结束</span><br><span class="line">console.log(a.slice(-1)); // 只有一个参数且小于0的情况下，则以数组长度加上该值作为索引进行截取直到数组结束</span><br><span class="line">console.log(a.slice(-1, 1)); // 反向截取，不合法返回空数组</span><br><span class="line">console.log(a.slice(1, -1)); // 从start索引值开始截取到数组倒数第一位（不包含）</span><br><span class="line">console.log(a.slice(-1, -2)); // 反向截取，不合法返回空数组</span><br><span class="line">console.log(a.slice(-2, -1)); // 从数组倒数第二位截取到倒数第一位（也可以用数组长度加上负数值转为正数进行截取）</span><br></pre></td></tr></table></figure>
+<h4 id="6-splice-index-count-value-从索引Index处删除count个元素，插入value（改变原数组）"><a href="#6-splice-index-count-value-从索引Index处删除count个元素，插入value（改变原数组）" class="headerlink" title="6. splice(index, count, value)从索引Index处删除count个元素，插入value（改变原数组）"></a>6. splice(index, count, value)从索引Index处删除count个元素，插入value（改变原数组）</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [1, 2, 3, 4, 5];</span><br><span class="line">let result = a.splice(1, 2, 0);</span><br><span class="line">console.log(result); // [2, 3]</span><br><span class="line">console.log(a); // [1, 0, 4, 5]</span><br><span class="line"></span><br><span class="line">// More</span><br><span class="line">a = [1, 2, 3, 4, 5];</span><br><span class="line">console.log(a.splice(-2)); // [4. 5]</span><br><span class="line">console.log(a); // [1, 2, 3]</span><br><span class="line"></span><br><span class="line">a = [1, 2, 3, 4, 5];</span><br><span class="line">console.log(a.splice(-1)); // [5]</span><br><span class="line">console.log(a); // [1, 2, 3, 4] 当参数为单个且小于0时，将从数组的倒数|index|位截取到数组的末位</span><br><span class="line"></span><br><span class="line">a = [1, 2, 3, 4, 5];</span><br><span class="line">console.log(a.splice(0)); // [1, 2, 3, 4, 5]</span><br><span class="line">console.log(a); // []</span><br><span class="line"></span><br><span class="line">a = [1, 2, 3, 4, 5];</span><br><span class="line">console.log(a.splice(1)); // [2, 3, 4, 5]</span><br><span class="line">console.log(a); // [1] 当参数为单个且不小于0时，将从当前数代表的索引位开始截取到数组的末位</span><br><span class="line"></span><br><span class="line">a = [1, 2, 3, 4, 5];</span><br><span class="line">console.log(a.splice(-1, 2)); // [5]</span><br><span class="line">console.log(a); // [1, 2, 3, 4] 从倒数第一位开始截取两个元素，元素不够，只返回存在的元素</span><br><span class="line"></span><br><span class="line">a = [1, 2, 3, 4, 5];</span><br><span class="line">console.log(a.splice(0, 2, &apos;a&apos;, &apos;b&apos;, &apos;c&apos;)); // [1, 2]</span><br><span class="line">console.log(a); // [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, 3, 4, 5] 截取后将value一次填充到数组被截取的位置，value的数量大于截取的数量时，数组中剩余的元素后移</span><br></pre></td></tr></table></figure>
+<h4 id="7-join-value-将数组用value连接为字符串，不改变原数组"><a href="#7-join-value-将数组用value连接为字符串，不改变原数组" class="headerlink" title="7. join(value)将数组用value连接为字符串，不改变原数组"></a>7. join(value)将数组用value连接为字符串，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.join(&apos;,&apos;)</span><br><span class="line">console.log(result)   // &apos;1,2,3,4,5&apos;</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">// More</span><br><span class="line">let obj = &#123;</span><br><span class="line">  toString() &#123;</span><br><span class="line">    console.log(&apos;调用了toString()方法！&apos;)</span><br><span class="line">    return &apos;a&apos;</span><br><span class="line">  &#125;,</span><br><span class="line">  toValue() &#123;</span><br><span class="line">    console.log(&apos;toValue()方法！&apos;)</span><br><span class="line">    return &apos;b&apos;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">result = a.join(obj) // 使用对象时会调用对象自身的toString方法转化为字符串，我们这里重写了toString，从而覆盖了原型链上的toString</span><br><span class="line">// 调用了toString()方法！</span><br><span class="line">console.log(result)   // 1a2a3a4a5</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">// join的一个相对的方法是字符串的split方法</span><br><span class="line">console.log(&apos;1a2a3a4a5&apos;.split(&apos;a&apos;)) // [1, 2, 3, 4, 5]</span><br></pre></td></tr></table></figure>
+<h4 id="8-reverse-反转数组，改变原数组"><a href="#8-reverse-反转数组，改变原数组" class="headerlink" title="8. reverse()反转数组，改变原数组"></a>8. reverse()反转数组，改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.reverse()</span><br><span class="line">console.log(result)   // [5, 4, 3, 2, 1]</span><br><span class="line">console.log(a)        // [5, 4, 3, 2, 1]</span><br><span class="line"></span><br><span class="line">// More</span><br><span class="line">a = [1, [2, 3], [4, 5]]</span><br><span class="line">result = a.reverse()</span><br><span class="line">console.log(result)   // [[4, 5], [2, 3], 1]</span><br><span class="line">console.log(a)        // [[4, 5], [2, 3], 1]</span><br><span class="line">// 可以看到这里的反转只是基于数组的第一层，属于浅反转。</span><br><span class="line"></span><br><span class="line">// 一个简单的深反转，使用递归实现</span><br><span class="line">const deepReverse = (array) =&gt; &#123;</span><br><span class="line">  let temp = array.reverse()</span><br><span class="line">  temp.forEach(v =&gt; &#123;</span><br><span class="line">    if(Object.prototype.toString.call(v) === &apos;[object Array]&apos;) &#123;</span><br><span class="line">      deepReverse(v)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line">  return temp</span><br><span class="line">&#125;</span><br><span class="line">a = [1, [2, 3], [4, 5]]</span><br><span class="line">result = deepReverse(a)</span><br><span class="line">console.log(result)    // [[5, 4], [3, 2], 1]</span><br></pre></td></tr></table></figure>
+<h4 id="9-sort-对数组元素进行排序，改变原数组"><a href="#9-sort-对数组元素进行排序，改变原数组" class="headerlink" title="9. sort()对数组元素进行排序，改变原数组"></a>9. sort()对数组元素进行排序，改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [31, 22, 27, 1, 9]</span><br><span class="line">let result = a.sort()</span><br><span class="line">console.log(result)   // [1, 22, 27, 31, 9]</span><br><span class="line">console.log(a)        // [1, 22, 27, 31, 9]</span><br><span class="line"></span><br><span class="line">// More</span><br><span class="line">a = [&apos;c&apos;, &apos;ac&apos;, &apos;ab&apos;, &apos;1c&apos;, 13, 12, &apos;13&apos;, &apos;12&apos;, &apos;3&apos;, &apos;2&apos;, &apos;1b&apos;, &apos;1a&apos;, 1, &apos;aa&apos;, &apos;a&apos;, 3, &apos;b&apos;, 2]</span><br><span class="line">a.sort()</span><br><span class="line">console.log(a) // [1, 12, &quot;12&quot;, 13, &quot;13&quot;, &quot;1a&quot;, &quot;1b&quot;, &quot;1c&quot;, &quot;2&quot;, 2, &quot;3&quot;, 3, &quot;a&quot;, &quot;aa&quot;, &quot;ab&quot;, &quot;ac&quot;, &quot;b&quot;, &quot;c&quot;]</span><br><span class="line">                      // 可以看出sort排序是根据位来进行排序，而非值的大小，先比较第一位数字在前，字母在后，若相同则比较后面位(实际是比较各个值转化为字符串后的各个位点的unicode位点)</span><br><span class="line">a = [31, 22, 27, 1, 9]</span><br><span class="line">a.sort((a, b)=&gt;&#123;</span><br><span class="line">  return a - b</span><br><span class="line">&#125;)</span><br><span class="line">console.log(a)        // [1, 9, 22, 27, 31]  按数值大小正序排列</span><br><span class="line"></span><br><span class="line">a = [31, 22, 27, 1, 9]</span><br><span class="line">a.sort((a, b)=&gt;&#123;</span><br><span class="line">  return b - a</span><br><span class="line">&#125;)</span><br><span class="line">console.log(a)        // [31, 27, 22, 9, 1]  按数值大小倒序排列</span><br></pre></td></tr></table></figure>
+<h4 id="10-toString-将数组中的元素用逗号拼接成字符串，不改变原数组"><a href="#10-toString-将数组中的元素用逗号拼接成字符串，不改变原数组" class="headerlink" title="10. toString()将数组中的元素用逗号拼接成字符串，不改变原数组"></a>10. toString()将数组中的元素用逗号拼接成字符串，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.toString()</span><br><span class="line">console.log(result)   // 1,2,3,4,5</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br></pre></td></tr></table></figure>
+<h4 id="11-indexOf-value-从索引为0开始，检查数组是否包含value，有责返回匹配到的第一个索引，没有则返回-1，不改变原数组"><a href="#11-indexOf-value-从索引为0开始，检查数组是否包含value，有责返回匹配到的第一个索引，没有则返回-1，不改变原数组" class="headerlink" title="11. indexOf(value)从索引为0开始，检查数组是否包含value，有责返回匹配到的第一个索引，没有则返回-1，不改变原数组"></a>11. indexOf(value)从索引为0开始，检查数组是否包含value，有责返回匹配到的第一个索引，没有则返回-1，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [1, 2, 3, 2, 5]</span><br><span class="line">let result = a.indexOf(2)</span><br><span class="line">console.log(result)   // 1</span><br><span class="line">console.log(a)        // [1, 2, 3, 2, 5]</span><br><span class="line"></span><br><span class="line">result = a.indexOf(6)</span><br><span class="line">console.log(result)   // -1</span><br><span class="line">console.log(a)        // [1, 2, 3, 2, 5]</span><br></pre></td></tr></table></figure>
+<h4 id="12-lastIndexOf-value-从最后的索引开始，价差数组是否包含value，有则返回匹配到的第一个索引，没有则返回-1，不改变原数组"><a href="#12-lastIndexOf-value-从最后的索引开始，价差数组是否包含value，有则返回匹配到的第一个索引，没有则返回-1，不改变原数组" class="headerlink" title="12. lastIndexOf(value)从最后的索引开始，价差数组是否包含value，有则返回匹配到的第一个索引，没有则返回-1，不改变原数组"></a>12. lastIndexOf(value)从最后的索引开始，价差数组是否包含value，有则返回匹配到的第一个索引，没有则返回-1，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [1, 2, 3, 2, 5]</span><br><span class="line">let result = a.lastIndexOf(2)</span><br><span class="line">console.log(result)   // 3</span><br><span class="line">console.log(a)        // [1, 2, 3, 2, 5]</span><br><span class="line"></span><br><span class="line">result = a.lastIndexOf(6)</span><br><span class="line">console.log(result)   // -1</span><br><span class="line">console.log(a)        // [1, 2, 3, 2, 5]</span><br></pre></td></tr></table></figure>
+<h4 id="13-concat-value-将数组和value连接成新数组，不改变原数组"><a href="#13-concat-value-将数组和value连接成新数组，不改变原数组" class="headerlink" title="13. concat(value)将数组和value连接成新数组，不改变原数组"></a>13. concat(value)将数组和value连接成新数组，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [1, 2], b = [3, 4], c = 5</span><br><span class="line">let result = a.concat(b, c)</span><br><span class="line">console.log(result)   // [1, 2, 3, 4, 5]</span><br><span class="line">console.log(a)        // [1, 2]</span><br><span class="line"></span><br><span class="line">// More</span><br><span class="line">b = [3, [4]]</span><br><span class="line">result = a.concat(b, c)</span><br><span class="line">console.log(result)   // [1, 2, 3, [4], 5] concat对于嵌套数组无法拉平</span><br><span class="line">console.log(a)        // [1, 2]</span><br></pre></td></tr></table></figure>
+<h4 id="14-fill-value-start-end-使用给定value填充数组，从索引start开始到end结束，不包含end，改变原数组"><a href="#14-fill-value-start-end-使用给定value填充数组，从索引start开始到end结束，不包含end，改变原数组" class="headerlink" title="14. fill(value, start, end)使用给定value填充数组，从索引start开始到end结束，不包含end，改变原数组"></a>14. fill(value, start, end)使用给定value填充数组，从索引start开始到end结束，不包含end，改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.fill(0, 2, 3)</span><br><span class="line">console.log(result)             // [1, 2, 0, 4, 5]</span><br><span class="line">console.log(a)                  // [1, 2, 0, 4, 5]</span><br><span class="line"></span><br><span class="line">// More</span><br><span class="line">a = [1, 2, 3, 4, 5]</span><br><span class="line">console.log(a.fill(1))          // [1, 1, 1, 1, 1]  参数一个时，将该参数覆盖填充到数组每一项</span><br><span class="line">a = [1, 2, 3, 4, 5]</span><br><span class="line">console.log(a.fill(1, 2))       // [1, 2, 1, 1, 1]  只有start时，从索引start开始填充到数组末位</span><br><span class="line">a = [1, 2, 3, 4, 5]</span><br><span class="line">console.log(a.fill(1, -2))      // [1, 2, 3, 1, 1]  只有start且为负数时，从倒数|start|位开始填充到数组末位</span><br></pre></td></tr></table></figure>
+<h4 id="15-flat-将二维数组变为一维数组，不改变原数组"><a href="#15-flat-将二维数组变为一维数组，不改变原数组" class="headerlink" title="15. flat()将二维数组变为一维数组，不改变原数组"></a>15. flat()将二维数组变为一维数组，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [1, 2, 3, [4, 5]]</span><br><span class="line">let result = a.flat()</span><br><span class="line">console.log(result)   // [1, 2, 3, 4, 5]</span><br><span class="line">console.log(a)        // [1, 2, 3, [4, 5]]</span><br><span class="line"></span><br><span class="line">let a = [1, 2, 3, [4, 5, [6, 7, [8, 9]]]]</span><br><span class="line">let result = a.flat()</span><br><span class="line">console.log(result)   // [1, 2, 3, 4, 5, [6, 7, [8, 9]]] 很显然只能将第二层嵌套数组“拉平”</span><br><span class="line">console.log(a)        // [1, 2, 3, [4, 5, [6, 7, [8, 9]]]]</span><br></pre></td></tr></table></figure>
+<h4 id="16-flatMap-相当于map与flat的结合，不改变原数组"><a href="#16-flatMap-相当于map与flat的结合，不改变原数组" class="headerlink" title="16. flatMap()相当于map与flat的结合，不改变原数组"></a>16. flatMap()相当于map与flat的结合，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.flatMap((currentValue)=&gt;&#123;</span><br><span class="line">  return [currentValue, currentValue * 2]</span><br><span class="line">&#125;)</span><br><span class="line">console.log(result)   // [1, 2, 2, 4, 3, 6, 4, 8, 5, 10]</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br></pre></td></tr></table></figure>
+<h4 id="17-copyWithin-target-start-end-将数组从start到end索引的元素，不包含end，复制到target开始的索引位置进行替换，改变原数组"><a href="#17-copyWithin-target-start-end-将数组从start到end索引的元素，不包含end，复制到target开始的索引位置进行替换，改变原数组" class="headerlink" title="17. copyWithin(target, start, end)将数组从start到end索引的元素，不包含end，复制到target开始的索引位置进行替换，改变原数组"></a>17. copyWithin(target, start, end)将数组从start到end索引的元素，不包含end，复制到target开始的索引位置进行替换，改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.copyWithin(0, 3, 5)  </span><br><span class="line">console.log(result)                 // [4, 5, 3, 4, 5]</span><br><span class="line">console.log(a)                      // [4, 5, 3, 4, 5]  索引3到5的元素为4和5，复制到从0开始的位置，替换掉了1和2</span><br><span class="line"></span><br><span class="line">// More</span><br><span class="line">a = [1, 2, 3, 4, 5]</span><br><span class="line">console.log(a.copyWithin(2))        // [1, 2, 1, 2, 3]  参数只有一个时，start默认为0，end默认为数组长度-1</span><br></pre></td></tr></table></figure>
+<h4 id="18-entries-方法返回一个数组的迭代对象，该对象包含数组的键值对-key-value-。迭代对象中数组的索引值作为-key，-数组元素作为-value。不改变原数组"><a href="#18-entries-方法返回一个数组的迭代对象，该对象包含数组的键值对-key-value-。迭代对象中数组的索引值作为-key，-数组元素作为-value。不改变原数组" class="headerlink" title="18. entries() 方法返回一个数组的迭代对象，该对象包含数组的键值对 (key/value)。迭代对象中数组的索引值作为 key， 数组元素作为 value。不改变原数组"></a>18. entries() 方法返回一个数组的迭代对象，该对象包含数组的键值对 (key/value)。迭代对象中数组的索引值作为 key， 数组元素作为 value。不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">// Base</span><br><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.entries()</span><br><span class="line">console.log(result.next())   // &#123;value: [0, 1], done: false&#125;    value数组中第一个元素为索引，第二元素为索引对应的值</span><br><span class="line">...</span><br><span class="line">console.log(result.next())   // &#123;value: [4, 5], done: false&#125;</span><br><span class="line">console.log(result.next())   // &#123;value: undefined, done: true&#125;</span><br><span class="line">console.log(result)          // Array Iterator &#123;&#125;</span><br><span class="line">console.log(a)               // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">result = a.entries()</span><br><span class="line">for(let value of result) &#123;</span><br><span class="line">  console.log(value)</span><br><span class="line">&#125;</span><br><span class="line">// [0, 1]</span><br><span class="line">// [1, 2]</span><br><span class="line">// [2, 3]</span><br><span class="line">// [3, 4]</span><br><span class="line">// [4, 5]</span><br><span class="line"></span><br><span class="line">// Time</span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">result = a.entries()</span><br><span class="line">for(let v of result) &#123; &#125;</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart)  // 运行三次，三次的耗时数 518ms 515ms 530ms</span><br></pre></td></tr></table></figure>
+<h4 id="19-keys-返回一个新的Array迭代器对象，可用for…of遍历，不改变原数组"><a href="#19-keys-返回一个新的Array迭代器对象，可用for…of遍历，不改变原数组" class="headerlink" title="19. keys()返回一个新的Array迭代器对象，可用for…of遍历，不改变原数组"></a>19. keys()返回一个新的Array迭代器对象，可用for…of遍历，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.keys()</span><br><span class="line">console.log(result.next())   // &#123;value: 0, done: false&#125;  value为索引  </span><br><span class="line">...</span><br><span class="line">console.log(result.next())   // &#123;value: 3, done: false&#125;</span><br><span class="line">console.log(result.next())   // &#123;value: 4, done: false&#125;</span><br><span class="line">console.log(result)          // Array Iterator &#123;&#125;</span><br><span class="line">console.log(a)               // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">result = a.keys()</span><br><span class="line">for(let value of result) &#123;</span><br><span class="line">  console.log(value)</span><br><span class="line">&#125;</span><br><span class="line">// 0</span><br><span class="line">// 1</span><br><span class="line">// 2</span><br><span class="line">// 3</span><br><span class="line">// 4</span><br><span class="line"></span><br><span class="line">// Time</span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">result = a.keys()</span><br><span class="line">for(let v of result) &#123; &#125;</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart)  // 运行三次，三次的耗时数 223ms 262ms 300ms</span><br></pre></td></tr></table></figure>
+<h4 id="20-values-返回一个新的迭代器，不改变原数组"><a href="#20-values-返回一个新的迭代器，不改变原数组" class="headerlink" title="20. values()返回一个新的迭代器，不改变原数组"></a>20. values()返回一个新的迭代器，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.values()</span><br><span class="line">console.log(result.next())   // &#123;value: 1, done: false&#125;  value为索引  </span><br><span class="line">...</span><br><span class="line">console.log(result.next())   // &#123;value: 4, done: false&#125;</span><br><span class="line">console.log(result.next())   // &#123;value: 5, done: false&#125;</span><br><span class="line">console.log(result)          // Array Iterator &#123;&#125;</span><br><span class="line">console.log(a)               // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">result = a.values()</span><br><span class="line">for(let value of result) &#123;</span><br><span class="line">  console.log(value)</span><br><span class="line">&#125;</span><br><span class="line">// 1</span><br><span class="line">// 2</span><br><span class="line">// 3</span><br><span class="line">// 4</span><br><span class="line">// 5</span><br><span class="line"></span><br><span class="line">// Time</span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">result = a.values()</span><br><span class="line">for(let v of result) &#123; &#125;</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart)  // 运行三次，三次的耗时数 254ms 270ms 273ms</span><br></pre></td></tr></table></figure>
+<h4 id="21-forEach-遍历数组，不改变原数组"><a href="#21-forEach-遍历数组，不改变原数组" class="headerlink" title="21. forEach()遍历数组，不改变原数组"></a>21. forEach()遍历数组，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.forEach((v, i)=&gt;&#123;</span><br><span class="line">  console.log(v, i)  </span><br><span class="line">  // 1 0</span><br><span class="line">  // 2 1</span><br><span class="line">  // 3 2</span><br><span class="line">  // 4 3</span><br><span class="line">  // 5 4</span><br><span class="line">&#125;)</span><br><span class="line">console.log(result)   // undefined</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">// Time</span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">a.forEach(v=&gt;&#123;&#125;)</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart)  // 运行三次，三次的耗时数 182ms 188ms 180ms</span><br></pre></td></tr></table></figure>
+<h4 id="22-every-fn-判断数组中是否所有元素都满足fn函数中的条件，不改变原数组"><a href="#22-every-fn-判断数组中是否所有元素都满足fn函数中的条件，不改变原数组" class="headerlink" title="22. every(fn)判断数组中是否所有元素都满足fn函数中的条件，不改变原数组"></a>22. every(fn)判断数组中是否所有元素都满足fn函数中的条件，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.every((currentValue)=&gt;&#123;</span><br><span class="line">  return currentValue &gt; 0</span><br><span class="line">&#125;)</span><br><span class="line">console.log(result)   // true  显然所有元素都大于0</span><br><span class="line"></span><br><span class="line">result = a.every((currentValue)=&gt;&#123;</span><br><span class="line">  return currentValue &gt; 1</span><br><span class="line">&#125;)</span><br><span class="line">console.log(result)   // false  1并不大于1</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">// Time</span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">a.every(v=&gt; v &gt; -1 )</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart) // 运行三次，三次的耗时数 176ms 200ms 186ms</span><br><span class="line"></span><br><span class="line">dateStart = Date.now()</span><br><span class="line">a.every(v=&gt; v &gt; 8 )</span><br><span class="line">dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart) // 0ms 0ms 0ms 不超过1ms，可见every的判断是在识别到不满足的条件时，立刻停止</span><br></pre></td></tr></table></figure>
+<h4 id="23-filter-fn-返回数组中符合fn函数中条件的集合，不改变原数组"><a href="#23-filter-fn-返回数组中符合fn函数中条件的集合，不改变原数组" class="headerlink" title="23. filter(fn)返回数组中符合fn函数中条件的集合，不改变原数组"></a>23. filter(fn)返回数组中符合fn函数中条件的集合，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.filter((currentValue)=&gt;&#123;</span><br><span class="line">  return currentValue &gt; 4</span><br><span class="line">&#125;)</span><br><span class="line">console.log(result)   // [5] 只有5满足条件</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">// Time</span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">a.filter(v=&gt; v &gt; -1 )</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart) // 运行三次，三次的耗时数 584ms 660ms 552ms 全部值都满足条件的情况</span><br><span class="line"></span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">a.filter(v=&gt; v &lt; 0 )</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart) // 200ms 194ms 183ms 这个时候才个forEach接近，这也是与forEach本身只有遍历的功能，没有执行其他逻辑相关</span><br></pre></td></tr></table></figure>
+<h4 id="24-find-fn-返回数组中第一个匹配fn函数中条件的值，没有则返回undefined，不改变原数组"><a href="#24-find-fn-返回数组中第一个匹配fn函数中条件的值，没有则返回undefined，不改变原数组" class="headerlink" title="24. find(fn)返回数组中第一个匹配fn函数中条件的值，没有则返回undefined，不改变原数组"></a>24. find(fn)返回数组中第一个匹配fn函数中条件的值，没有则返回undefined，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.find((currentValue)=&gt;&#123;</span><br><span class="line">  return currentValue &gt; 3</span><br><span class="line">&#125;)</span><br><span class="line">console.log(result)   // 4</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">let result = a.find((currentValue)=&gt;&#123;</span><br><span class="line">  return currentValue &gt; 5</span><br><span class="line">&#125;)</span><br><span class="line">console.log(result)   // undefined</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">// Time</span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">a.find(v=&gt; v &lt; 0 )</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart)  // 185ms 197ms 203ms 全部不满足的情况下，效率与forEach相当</span><br><span class="line"></span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">a.find(v=&gt; v &gt; 10 )</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart)  // 0ms 0ms 0ms 小于1ms，可以判断当匹配到满足条件的第一个值后，立刻停止循环，与every相当</span><br></pre></td></tr></table></figure>
+<h4 id="25-findIndex-fn-返回数组中第一个匹配fn函数中的条件的值的索引，没有则返回undefined，不改变原数组"><a href="#25-findIndex-fn-返回数组中第一个匹配fn函数中的条件的值的索引，没有则返回undefined，不改变原数组" class="headerlink" title="25. findIndex(fn)返回数组中第一个匹配fn函数中的条件的值的索引，没有则返回undefined，不改变原数组"></a>25. findIndex(fn)返回数组中第一个匹配fn函数中的条件的值的索引，没有则返回undefined，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.findIndex((currentValue)=&gt;&#123;</span><br><span class="line">  return currentValue &gt; 3</span><br><span class="line">&#125;)</span><br><span class="line">console.log(result)   // 3</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">let result = a.findIndex((currentValue)=&gt;&#123;</span><br><span class="line">  return currentValue &gt; 5</span><br><span class="line">&#125;)</span><br><span class="line">console.log(result)   // -1</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">// Time</span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">a.findIndex(v=&gt; v &lt; 0 )</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart)  // 185ms 183ms 187ms 与find相当</span><br><span class="line"></span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">a.findIndex(v=&gt; v &gt; 10 )</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart)  // 0ms 0ms 0ms 与find相当</span><br></pre></td></tr></table></figure>
+<h4 id="26-includes-返回一个布尔值，表示某个数组是否包含给定的值，不改变原数组"><a href="#26-includes-返回一个布尔值，表示某个数组是否包含给定的值，不改变原数组" class="headerlink" title="26. includes()返回一个布尔值，表示某个数组是否包含给定的值，不改变原数组"></a>26. includes()返回一个布尔值，表示某个数组是否包含给定的值，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.includes(2)</span><br><span class="line">console.log(result)   // true</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">result = a.includes(6)</span><br><span class="line">console.log(result)   // false</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">// Time</span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">a.includes(10)</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart) // 0ms 0ms 0ms</span><br><span class="line"></span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">a.includes(10000000-1)</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart) // 22ms 18ms 27ms 性能不错</span><br></pre></td></tr></table></figure>
+<h4 id="27-map-fn-以fn函数中返回值组成新的数组返回，不改变原数组"><a href="#27-map-fn-以fn函数中返回值组成新的数组返回，不改变原数组" class="headerlink" title="27. map(fn)以fn函数中返回值组成新的数组返回，不改变原数组"></a>27. map(fn)以fn函数中返回值组成新的数组返回，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.map((v, i)=&gt;&#123;</span><br><span class="line">  return 9</span><br><span class="line">&#125;)</span><br><span class="line">console.log(result)   // [9, 9, 9, 9, 9]</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">// Time</span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">a.map(v=&gt;1)</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart) // 2158ms 2007ms 2079ms 耗时比较大</span><br></pre></td></tr></table></figure>
+<h4 id="28-reduce-累计器，不改变原数组"><a href="#28-reduce-累计器，不改变原数组" class="headerlink" title="28. reduce()累计器，不改变原数组"></a>28. reduce()累计器，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.reduce((accumulator, currentValue, currentIndex, array)=&gt;&#123;</span><br><span class="line">  console.log(accumulator, currentValue, currentIndex, array)</span><br><span class="line">  return accumulator + currentValue</span><br><span class="line">  // 5  1 0 [1, 2, 3, 4, 5]  第一次accumulator的值为reduce第二个参数5, currentValue为数组第一个元素</span><br><span class="line">  // 6  2 1 [1, 2, 3, 4, 5]  第二次accumulator的值为5加上数组a中的第一个值，即是第一次循环时return的值</span><br><span class="line">  // 8  3 2 [1, 2, 3, 4, 5]  同上</span><br><span class="line">  // 11 4 3 [1, 2, 3, 4, 5]  同上 </span><br><span class="line">  // 15 5 4 [1, 2, 3, 4, 5]  同上</span><br><span class="line">&#125;, 5)</span><br><span class="line">console.log(result)   // 20 为最终累计的和</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">// 无初始值时，accumulator的初始值为数组的第一个元素，currentValue为数组第二个元素</span><br><span class="line">result = a.reduce((accumulator, currentValue, currentIndex, array)=&gt;&#123;</span><br><span class="line">  console.log(accumulator, currentValue, currentIndex, array)</span><br><span class="line">  return accumulator + currentValue</span><br><span class="line">  // 1  2 1 [1, 2, 3, 4, 5]</span><br><span class="line">  // 3  3 2 [1, 2, 3, 4, 5]</span><br><span class="line">  // 6  4 3 [1, 2, 3, 4, 5]</span><br><span class="line">  // 10 5 4 [1, 2, 3, 4, 5]</span><br><span class="line">&#125;)</span><br><span class="line">console.log(result)   // 15 为最终累计的和</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">// Time</span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">a.reduce((accumulator, currentValue, currentIndex, array)=&gt;&#123;</span><br><span class="line">  return accumulator + currentValue</span><br><span class="line">&#125;)</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart) // 200ms 258ms 257ms 效率与forEach相差也不多，而且比forEach多个累计的功能</span><br></pre></td></tr></table></figure>
+<h4 id="29-reduceRight-fn-和reduce功能一样，只是从数组末尾进行计算"><a href="#29-reduceRight-fn-和reduce功能一样，只是从数组末尾进行计算" class="headerlink" title="29. reduceRight(fn)和reduce功能一样，只是从数组末尾进行计算"></a>29. reduceRight(fn)和reduce功能一样，只是从数组末尾进行计算</h4><h4 id="30-some-fn-检查数组中是否含有满足fn函数条件的值，不改变原数组"><a href="#30-some-fn-检查数组中是否含有满足fn函数条件的值，不改变原数组" class="headerlink" title="30. some(fn)检查数组中是否含有满足fn函数条件的值，不改变原数组"></a>30. some(fn)检查数组中是否含有满足fn函数条件的值，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, 2, 3, 4, 5]</span><br><span class="line">let result = a.some((v)=&gt;&#123;</span><br><span class="line">  return v &gt; 2</span><br><span class="line">&#125;)</span><br><span class="line">console.log(result)   // true</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">result = a.some((v)=&gt;&#123;</span><br><span class="line">  return v &gt; 6</span><br><span class="line">&#125;)</span><br><span class="line">console.log(result)   // false</span><br><span class="line">console.log(a)        // [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line">// Time</span><br><span class="line">a = []</span><br><span class="line">for(let i = 0; i &lt; 10000000; i++) &#123;</span><br><span class="line">  a.push(i)</span><br><span class="line">&#125;</span><br><span class="line">let dateStart = Date.now()</span><br><span class="line">a.some(v=&gt;&#123;</span><br><span class="line">  return v &lt; 0</span><br><span class="line">&#125;)</span><br><span class="line">let dateEnd = Date.now()</span><br><span class="line">console.log(dateEnd - dateStart)  // 171ms 176ms 188ms 全部不满足的情况下效率与forEach相当</span><br></pre></td></tr></table></figure>
+<h4 id="31-toLocalString-将数组中的每个元素使用各自的toLocalString-转换后用-拼接，不改变原数组"><a href="#31-toLocalString-将数组中的每个元素使用各自的toLocalString-转换后用-拼接，不改变原数组" class="headerlink" title="31. toLocalString() 将数组中的每个元素使用各自的toLocalString()转换后用,拼接，不改变原数组"></a>31. toLocalString() 将数组中的每个元素使用各自的toLocalString()转换后用,拼接，不改变原数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">let a = [1, new Date(), &apos;a&apos;, &#123;m: 1&#125;]</span><br><span class="line">let result = a.toLocaleString()</span><br><span class="line">console.log(result)   // &apos;1,2018/10/3 下午9:23:59,a,[object Object]&apos;</span><br><span class="line">console.log(a)        // [1, Wed Oct 03 2018 21:23:59 GMT+0800 (中国标准时间), &quot;a&quot;, &#123;m: 1&#125;]</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/基础/" rel="tag"># 基础</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/category/this/" rel="next" title="this、call 和 apply">
+                <i class="fa fa-chevron-left"></i> this、call 和 apply
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/category/question1/" rel="prev" title="转换指定格式">
+                转换指定格式 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/dog.jpeg" alt="月魂">
+            
+              <p class="site-author-name" itemprop="name">月魂</p>
+              <p class="site-description motion-element" itemprop="description">be patient</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/ynnyh" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://twitter.com/yuehunKing" target="_blank" title="推特">
+                      
+                        <i class="fa fa-fw fa-twitter"></i>推特</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://weibo.com/p/1005052064082463/home?from=page_100505&mod=TAB#place" target="_blank" title="微博">
+                      
+                        <i class="fa fa-fw fa-weibo"></i>微博</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.facebook.com/ning.yuan.1675" target="_blank" title="脸书">
+                      
+                        <i class="fa fa-fw fa-facebook"></i>脸书</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#em"><span class="nav-number">1.</span> <span class="nav-text">em</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组"><span class="nav-number">2.</span> <span class="nav-text">数组</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-push-接受一个或多个参数，把其传入数组的末尾，返回数组长度，改变原数组"><span class="nav-number">2.1.</span> <span class="nav-text">1. push 接受一个或多个参数，把其传入数组的末尾，返回数组长度，改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-pop-移除指定数组的最后一个元素，并且返回该元素，改变原数组"><span class="nav-number">2.2.</span> <span class="nav-text">2. pop 移除指定数组的最后一个元素，并且返回该元素，改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-shift-移除指定数组的第一个元素，并且返回该元素，改变原数组"><span class="nav-number">2.3.</span> <span class="nav-text">3. shift 移除指定数组的第一个元素，并且返回该元素，改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-unshift-向指定数组的头部添加元素，并且返回该元素，改变原数组"><span class="nav-number">2.4.</span> <span class="nav-text">4. unshift 向指定数组的头部添加元素，并且返回该元素，改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-slice-start-end-返回新数组，包含原数组索引start的值到索引end的值不包含end（不改变原数组）"><span class="nav-number">2.5.</span> <span class="nav-text">5. slice(start, end)返回新数组，包含原数组索引start的值到索引end的值不包含end（不改变原数组）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-splice-index-count-value-从索引Index处删除count个元素，插入value（改变原数组）"><span class="nav-number">2.6.</span> <span class="nav-text">6. splice(index, count, value)从索引Index处删除count个元素，插入value（改变原数组）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-join-value-将数组用value连接为字符串，不改变原数组"><span class="nav-number">2.7.</span> <span class="nav-text">7. join(value)将数组用value连接为字符串，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8-reverse-反转数组，改变原数组"><span class="nav-number">2.8.</span> <span class="nav-text">8. reverse()反转数组，改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#9-sort-对数组元素进行排序，改变原数组"><span class="nav-number">2.9.</span> <span class="nav-text">9. sort()对数组元素进行排序，改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#10-toString-将数组中的元素用逗号拼接成字符串，不改变原数组"><span class="nav-number">2.10.</span> <span class="nav-text">10. toString()将数组中的元素用逗号拼接成字符串，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#11-indexOf-value-从索引为0开始，检查数组是否包含value，有责返回匹配到的第一个索引，没有则返回-1，不改变原数组"><span class="nav-number">2.11.</span> <span class="nav-text">11. indexOf(value)从索引为0开始，检查数组是否包含value，有责返回匹配到的第一个索引，没有则返回-1，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#12-lastIndexOf-value-从最后的索引开始，价差数组是否包含value，有则返回匹配到的第一个索引，没有则返回-1，不改变原数组"><span class="nav-number">2.12.</span> <span class="nav-text">12. lastIndexOf(value)从最后的索引开始，价差数组是否包含value，有则返回匹配到的第一个索引，没有则返回-1，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#13-concat-value-将数组和value连接成新数组，不改变原数组"><span class="nav-number">2.13.</span> <span class="nav-text">13. concat(value)将数组和value连接成新数组，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#14-fill-value-start-end-使用给定value填充数组，从索引start开始到end结束，不包含end，改变原数组"><span class="nav-number">2.14.</span> <span class="nav-text">14. fill(value, start, end)使用给定value填充数组，从索引start开始到end结束，不包含end，改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#15-flat-将二维数组变为一维数组，不改变原数组"><span class="nav-number">2.15.</span> <span class="nav-text">15. flat()将二维数组变为一维数组，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#16-flatMap-相当于map与flat的结合，不改变原数组"><span class="nav-number">2.16.</span> <span class="nav-text">16. flatMap()相当于map与flat的结合，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#17-copyWithin-target-start-end-将数组从start到end索引的元素，不包含end，复制到target开始的索引位置进行替换，改变原数组"><span class="nav-number">2.17.</span> <span class="nav-text">17. copyWithin(target, start, end)将数组从start到end索引的元素，不包含end，复制到target开始的索引位置进行替换，改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#18-entries-方法返回一个数组的迭代对象，该对象包含数组的键值对-key-value-。迭代对象中数组的索引值作为-key，-数组元素作为-value。不改变原数组"><span class="nav-number">2.18.</span> <span class="nav-text">18. entries() 方法返回一个数组的迭代对象，该对象包含数组的键值对 (key/value)。迭代对象中数组的索引值作为 key， 数组元素作为 value。不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#19-keys-返回一个新的Array迭代器对象，可用for…of遍历，不改变原数组"><span class="nav-number">2.19.</span> <span class="nav-text">19. keys()返回一个新的Array迭代器对象，可用for…of遍历，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#20-values-返回一个新的迭代器，不改变原数组"><span class="nav-number">2.20.</span> <span class="nav-text">20. values()返回一个新的迭代器，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#21-forEach-遍历数组，不改变原数组"><span class="nav-number">2.21.</span> <span class="nav-text">21. forEach()遍历数组，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#22-every-fn-判断数组中是否所有元素都满足fn函数中的条件，不改变原数组"><span class="nav-number">2.22.</span> <span class="nav-text">22. every(fn)判断数组中是否所有元素都满足fn函数中的条件，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#23-filter-fn-返回数组中符合fn函数中条件的集合，不改变原数组"><span class="nav-number">2.23.</span> <span class="nav-text">23. filter(fn)返回数组中符合fn函数中条件的集合，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#24-find-fn-返回数组中第一个匹配fn函数中条件的值，没有则返回undefined，不改变原数组"><span class="nav-number">2.24.</span> <span class="nav-text">24. find(fn)返回数组中第一个匹配fn函数中条件的值，没有则返回undefined，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#25-findIndex-fn-返回数组中第一个匹配fn函数中的条件的值的索引，没有则返回undefined，不改变原数组"><span class="nav-number">2.25.</span> <span class="nav-text">25. findIndex(fn)返回数组中第一个匹配fn函数中的条件的值的索引，没有则返回undefined，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#26-includes-返回一个布尔值，表示某个数组是否包含给定的值，不改变原数组"><span class="nav-number">2.26.</span> <span class="nav-text">26. includes()返回一个布尔值，表示某个数组是否包含给定的值，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#27-map-fn-以fn函数中返回值组成新的数组返回，不改变原数组"><span class="nav-number">2.27.</span> <span class="nav-text">27. map(fn)以fn函数中返回值组成新的数组返回，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#28-reduce-累计器，不改变原数组"><span class="nav-number">2.28.</span> <span class="nav-text">28. reduce()累计器，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#29-reduceRight-fn-和reduce功能一样，只是从数组末尾进行计算"><span class="nav-number">2.29.</span> <span class="nav-text">29. reduceRight(fn)和reduce功能一样，只是从数组末尾进行计算</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#30-some-fn-检查数组中是否含有满足fn函数条件的值，不改变原数组"><span class="nav-number">2.30.</span> <span class="nav-text">30. some(fn)检查数组中是否含有满足fn函数条件的值，不改变原数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#31-toLocalString-将数组中的每个元素使用各自的toLocalString-转换后用-拼接，不改变原数组"><span class="nav-number">2.31.</span> <span class="nav-text">31. toLocalString() 将数组中的每个元素使用各自的toLocalString()转换后用,拼接，不改变原数组</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2018 &mdash; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">月魂</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">8.7k</span>
+  
+</div>
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("JlINJcihU6hmbVLVKix3m6Vc-gzGzoHsz", "woDysvPRSgORPYN4Sv3iwYWo");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/click.js"></script>
+</html>
