@@ -94,8 +94,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: git@github.com:ynnyh/yuehunKing.github.io.git
+  repo: git@git.dev.tencent.com:yuehunKing/yuehunKing.git
   branch: master
 - type: git
-  repo: git@git.dev.tencent.com:yuehunKing/yuehunKing.git
+  repo: git@github.com:ynnyh/yuehunKing.github.io.git
   branch: master
