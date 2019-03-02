@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[css权重]]></title>
+    <url>%2Fcategory%2Fcss%E6%9D%83%E9%87%8D%2F</url>
+    <content type="text"><![CDATA[css权重 ！important ==&gt; Infinity 行间样式 ==&gt; 1000 id ==&gt; 100 class | 属性 | 伪类 ==&gt; 10 标签选择器 | 伪元素 ==&gt; 1 通配符 ==&gt; 0]]></content>
+      <categories>
+        <category>CSS</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[斐波那契数列实现]]></title>
     <url>%2Fcategory%2F%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97%E5%AE%9E%E7%8E%B0%2F</url>
     <content type="text"><![CDATA[斐波那契数列（Fibonacci sequence），又称黄金分割数列、因数学家列昂纳多·斐波那契（Leonardoda Fibonacci）以兔子繁殖为例子而引入，故又称为“兔子数列”，指的是这样一个数列：1、1、2、3、5、8、13、21、34、……在数学上，斐波纳契数列以如下被以递推的方法定义：F(1)=1，F(2)=1, F(n)=F(n-1)+F(n-2)（n&gt;=3，n∈N*）在现代物理、准晶体结构、化学等领域，斐波纳契数列都有直接的应用，为此，美国数学会从1963年起出版了以《斐波纳契数列季刊》为名的一份数学杂志，用于专门刊载这方面的研究成果。 在js中，用递归解决问题的时候要注意两点： 找出规律，该规律即为递归函数的return值 找出出口，即在递归的过程中，需要一个出口来关闭递归过程。12345678910111213141516// 找出规律，斐波那契数列的规律为fb(n)=fb(n-1)+fb(n-2);(n&gt;3)// 找出出口 在n&lt;=2的时候结束递归function fb (n) &#123; if (n === 1 || n === 2) &#123; // 2. 找出结束递归的出口 return 1; &#125; return fb(n - 1) + fb(n - 2); // 1.将规律直接return出来&#125;console.log(fb(1)); // 1console.log(fb(2)); // 1console.log(fb(3)); // 2console.log(fb(4)); // 3console.log(fb(5)); // 5console.log(fb(6)); // 8console.log(fb(7)); // 13console.log(fb(8)); // 21]]></content>
