@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo操作指南]]></title>
+    <url>%2Fcategory%2Faction%2F</url>
+    <content type="text"><![CDATA[新建文章1hexo new post artical 发布1234hexo g // 生成静态页面hexo s // 启动本地服务，查看新增静态页面hexo d // 发布至coding及github pages页面hexo clean // 删除本地生成的静态页面 剩余步骤在github中我们新增了一个Hexo分支用来保存我们的源代码，方便我们在更换电脑或公司时进行迁移，所以每次在发布新文章后，都要将代码发生的改动推至Hexo分支，切记是Hexo分支，不要推至master主分支。]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[git]]></title>
     <url>%2Fcategory%2Fgit%2F</url>
     <content type="text"><![CDATA[这里会存放关于git的学习记录]]></content>
