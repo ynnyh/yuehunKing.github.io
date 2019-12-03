@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[git]]></title>
+    <url>%2Fcategory%2Fgit%2F</url>
+    <content type="text"><![CDATA[这里会存放关于git的学习记录]]></content>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[css权重]]></title>
     <url>%2Fcategory%2Fcss%E6%9D%83%E9%87%8D%2F</url>
     <content type="text"><![CDATA[css权重 ！important ==&gt; Infinity 行间样式 ==&gt; 1000 id ==&gt; 100 class | 属性 | 伪类 ==&gt; 10 标签选择器 | 伪元素 ==&gt; 1 通配符 ==&gt; 0]]></content>
