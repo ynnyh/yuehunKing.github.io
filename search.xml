@@ -11,7 +11,7 @@
   <entry>
     <title><![CDATA[git]]></title>
     <url>%2Fcategory%2Fgit%2F</url>
-    <content type="text"><![CDATA[这里会存放关于git的学习记录]]></content>
+    <content type="text"><![CDATA[1234567891011git config --config user.name &apos;yuehun&apos; // 设置全局用户名git config --config user.email &apos;1234@qq.com&apos; // 设置邮箱git mv readme readme.md // git重命名方法git reset --hard // git移除所有暂存区内容git log --all // 查看所有分支下的commitgit log --all --graph // 图形化查看所有分支下的commitgit log --online // 一行简洁的方式查看当前分支下的commitgit log --online --all // 一行简介的方式查看所有分支下的commitgit log --online --all -n4 // 查看就近的四个commit，n后面跟数字多少就查多少git log --online --all -n4 --graph // 图形化查看就近的四个commitgitk // 图形界面工具查看版本历史]]></content>
       <tags>
         <tag>git</tag>
       </tags>
